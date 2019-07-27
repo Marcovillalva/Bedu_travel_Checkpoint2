@@ -4,6 +4,7 @@ body{
     background-image: url("http://djphalanx.com/wp-content/uploads/2014/09/exotic-beach-pictures-images-photos-0311031043.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     background-color: black;
@@ -18,7 +19,14 @@ header img{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 120px 0px 0px;
+    margin: 0px 80px 0px 0px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: red;
 }
 ul{
     color: white;
@@ -83,6 +91,24 @@ input {
     font-size: 23px;
     text-align: center;
 }
+.flexbox-galeria{
+    margin: 50px 10px 10px 200px;
+    background-color: #fff;
+    width: 890px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content:space-evenly;
+  }
+  .flexbox-galeria .box{
+    background: url(https://i.ebayimg.com/images/i/162625004557-0-1/s-l1000.jpg);
+    margin: 5px;
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    /* justify-content: center; */
+  }
 footer{
     background-color: black;
     margin: 0px;
